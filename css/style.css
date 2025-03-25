@@ -8,6 +8,13 @@ img {
     max-width: 100%;
 }
 
+/* Utilities */
+:root {
+    --common-color-1: rgb(255, 0, 0);
+    --common-color-2: rgb(255, 255, 255);
+    --common-color-3: rgb(0, 128, 0);
+    --common-color-4: rgb(0, 0, 0);
+}
 
 /* Common */
 
@@ -24,18 +31,72 @@ body {
     width: 30%;
 }
 
+.pad-10 {
+    padding: 5px;
+}
+
 
 /* Main */
 
 .set-abbigliamento {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .abbigliamento {
-    background-color: aqua;
+    position: relative;
 }
 
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.heart:hover {
+    color: var(--common-color-1);
+}
+
+.img-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.abbigliamento:hover .img-hover {
+    display: block;
+}
+
+.sconto-sost {
+    position: relative;
+    bottom: 160px;
+    color: var(--common-color-2);
+}
+
+.sconto {
+    background-color: var(--common-color-1);
+}
+
+.sostenibilità {
+    background-color: var(--common-color-3)
+}
+
+.tipodiabito {
+    font-weight: bold;
+}
+
+.prezzoscontato {
+    color: var(--common-color-1);
+}
+
+.prezzobase {
+    color: var(--common-color-4);
+}
 
