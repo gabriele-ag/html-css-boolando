@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Common */
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-40 {
+    width: 30%;
+}
+
+
+/* Main */
+
+.set-abbigliamento {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abbigliamento {
+    background-color: aqua;
+}
+
+
