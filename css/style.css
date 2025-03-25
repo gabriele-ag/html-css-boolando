@@ -16,6 +16,10 @@ img {
     --common-color-4: rgb(0, 0, 0);
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Common */
 
 .container {
@@ -32,8 +36,9 @@ body {
 }
 
 .pad-10 {
-    padding: 5px;
+    padding: 5px 10px;
 }
+
 
 
 /* Main */
@@ -92,7 +97,7 @@ body {
     font-weight: bold;
 }
 
-.prezzoscontato {
+.prezzorosso {
     color: var(--common-color-1);
 }
 
