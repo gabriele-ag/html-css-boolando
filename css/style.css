@@ -13,13 +13,20 @@ img {
     --common-color-1: rgb(255, 0, 0);
     --common-color-2: rgb(255, 255, 255);
     --common-color-3: rgb(0, 128, 0);
-    --common-color-4: rgb(0, 0, 0);
+    --common-color-4: rgb(34, 34, 34);
 }
 
 .bold {
     font-weight: bold;
 }
 
+.mg-right5 {
+    margin-right: 5px;
+}
+
+.mg-right10 {
+    margin-right: 10px;
+}
 /* Common */
 
 .container {
@@ -68,8 +75,13 @@ ul li {
     color: var(--common-color-2);
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* Main */
+
 
 .set-abbigliamento {
     width: 80%;
@@ -77,7 +89,8 @@ ul li {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
-    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .abbigliamento {
@@ -135,4 +148,25 @@ ul li {
 }
 
 /* Footer */
+footer {
+    background-color: var(--common-color-4);
+    padding: 30px 0;
+}
+
+.boolando {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerlink, .boolando h3, .psocial {
+    color: var(--common-color-2);
+}
+
+h3, .psocial {
+    margin-bottom: 5px;
+}
+
+
+
 
